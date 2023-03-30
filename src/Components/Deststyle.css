@@ -1,0 +1,79 @@
+.Destination{
+    margin:3rem 3rem;
+}
+.Destination h1{
+    font-size: 3rem;
+}
+
+.first-dest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.second-dest{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.first-desc{
+    width:100%;
+    text-align:inherit;
+    font-size: 1.3rem;
+}
+
+.first-desc h2{
+    padding-bottom: 1.2rem;
+}
+
+
+.image{
+    position:relative;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.image img{
+    width: 49%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px -12px rgb(2, 163, 161);
+}
+.image img:nth-child(2){
+    position: absolute;
+    top:-10%;
+    right: 0;
+}
+
+@media screen and (max-width:850px)
+{
+    .Destination{
+        margin:4rem 2rem;
+    }
+    .first-dest{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+    }
+    .second-dest{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+    }
+
+    .first-desc{
+        font-size: 1.1rem; 
+    } 
+    .image{
+        width:80%;
+        margin:1.5rem 0;
+    }
+    .image img{
+        height: 300px;
+    }
+}

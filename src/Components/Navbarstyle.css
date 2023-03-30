@@ -1,0 +1,137 @@
+.Navitems{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px ;
+    box-shadow: 0 5px 10px rgba(3, 174, 146, 0.735);
+    width: 95%;
+    height: 80px ;
+    border-radius: 15px;
+    position: fixed;
+    top: 20px;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 99;
+}
+
+.logo{
+    color:black;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight:900;
+    font-family: sans-serif;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0.4rem 0.6rem;  
+}
+.nav-links i{
+    padding: 7px;  
+}
+
+.nav-links:hover{
+    background-color: rgba(5, 130, 175, 0.765);
+    color: white;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+.sign{
+    display: none;
+}
+
+button{
+    padding: 0.4rem .8rem;
+    white-space: nowrap;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border:none;
+    transition: .2s ease-in-out;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.menu-icons{
+    display: none;
+}
+
+@media screen and (max-width:800px){
+    .Navitems{
+        z-index: 2;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width:100%;
+        height:auto;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        left: -100%;
+        align-items: stretch;
+        padding:80px 0 30px 0 ;
+        margin: 0;
+    }
+
+    .menu.active{
+        left:0;
+        opacity: 1;
+        z-index: -2;
+    }
+
+    .nav-links{
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+    }
+
+    .nav-links:hover{
+        background-color: rgba(5, 130, 175, 0.765);
+        transition: none;
+    }
+
+    button{
+        display: none;
+    }
+    .menu-icons{
+        display: block;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .sign{
+        display: block;
+        text-align: center;
+        padding: 1rem;
+        margin: auto;
+        border-radius: 6px;
+        width: 80%;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+
+}

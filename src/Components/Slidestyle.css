@@ -1,0 +1,70 @@
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.banner-mid,.banner-last{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+.banner h1,.banner-mid h1,.banner-last h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    background-color: white;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent ;
+}
+
+.content{
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+}
+
+.banner p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    padding: 0.1rem 0 2rem 0;
+    letter-spacing: 2px;
+
+}
+
+.banner .show{
+    text-decoration: none;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: black;
+}
+
+@media screen  and ( max-width: 555px){
+    .content h1{
+        padding: 10px 20px;
+    }
+
+    .content p{
+        font-size: 1.1rem;
+        padding:0 0 2rem 0;
+    }
+
+    
+.content .show{
+    padding: .6rem 1rem;
+    border-radius: 6px;
+    font-size: 1.0rem;
+    background-color: aquamarine;
+}
+    
+}
