@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/mywork/static/css/main.498a36d1.css",
-    "main.js": "/mywork/static/js/main.de1c1058.js",
+    "main.css": "/mywork/static/css/main.9c636861.css",
+    "main.js": "/mywork/static/js/main.3a33ba98.js",
+    "static/media/pexels-shukhrat-umarov-1534411.jpg": "/mywork/static/media/pexels-shukhrat-umarov-1534411.77f53a72b4024f03e44b.jpg",
+    "static/media/pexels-cameron-casey-1722183.jpg": "/mywork/static/media/pexels-cameron-casey-1722183.d90712646ac4cd6e76ae.jpg",
+    "static/media/one.jpg": "/mywork/static/media/one.6257bf50e8d959a1ef00.jpg",
+    "static/media/pexels-ian-beckley-2440013.jpg": "/mywork/static/media/pexels-ian-beckley-2440013.c108af76788b5ab49335.jpg",
+    "static/media/pexels-eberhard-grossgasteiger-691668.jpg": "/mywork/static/media/pexels-eberhard-grossgasteiger-691668.96bd0dc331dcae11b94c.jpg",
+    "static/media/pexels-josh-sorenson-995301.jpg": "/mywork/static/media/pexels-josh-sorenson-995301.99c3c3e10d0348d4a8bd.jpg",
+    "static/media/pexels-josh-hild-2448749.jpg": "/mywork/static/media/pexels-josh-hild-2448749.3972f01d570fc55aae81.jpg",
+    "static/media/pexels-roberto-nickson-2559941.jpg": "/mywork/static/media/pexels-roberto-nickson-2559941.4fab32df4f5ddc895b7c.jpg",
+    "static/media/pexels-pixabay-33317.jpg": "/mywork/static/media/pexels-pixabay-33317.1c2ca98f0093542455bb.jpg",
     "index.html": "/mywork/index.html",
-    "main.498a36d1.css.map": "/mywork/static/css/main.498a36d1.css.map",
-    "main.de1c1058.js.map": "/mywork/static/js/main.de1c1058.js.map"
+    "main.9c636861.css.map": "/mywork/static/css/main.9c636861.css.map",
+    "main.3a33ba98.js.map": "/mywork/static/js/main.3a33ba98.js.map"
   },
   "entrypoints": [
-    "static/css/main.498a36d1.css",
-    "static/js/main.de1c1058.js"
+    "static/css/main.9c636861.css",
+    "static/js/main.3a33ba98.js"
   ]
 }
