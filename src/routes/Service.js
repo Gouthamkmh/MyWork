@@ -1,12 +1,13 @@
 import Slide from '../Components/Slide';
 import Footer from "../Components/Footer"
+import img1 from '../images/pexels-roberto-nickson-2559941.jpg';
 
 const Service = () => {
   return (
     <>
     <Slide
     cName="banner-mid"
-    slideImg="images/pexels-roberto-nickson-2559941.jpg"
+    slideImg={img1}
     title="SERVICES"/>
     <Footer/>
     </>

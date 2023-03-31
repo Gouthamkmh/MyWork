@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 
 class Navbar extends Component{
-    state = { clicked : false};
+    state = { clicked : true};
     Handle = () =>{
       this.setstate({clicked: !this.state.clicked})
     }

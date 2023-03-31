@@ -1,6 +1,8 @@
 import Tripdata from "./Tripdata"
 import "./Tripstyle.css"
-
+import img1 from '../images/one.jpg';
+import img2 from '../images/pexels-josh-hild-2448749.jpg';
+import img3 from '../images/pexels-pixabay-33317.jpg';
 const Trip = () => {
   return (
     <div className='trip'>
@@ -9,7 +11,7 @@ const Trip = () => {
         <div className="tripcard">
           <Tripdata
           heading="kodaikanal"
-          image="images\one.jpg"
+          image={img1}
           text="heyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyhey
             heyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyhey
             heyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyhey
@@ -33,7 +35,7 @@ const Trip = () => {
             "/>
             <Tripdata
             heading="ooty"
-            image="images\pexels-josh-hild-2448749.jpg"
+            image={img2}
             text="heyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyhey
               heyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyhey
               heyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyhey
@@ -57,7 +59,7 @@ const Trip = () => {
               "/>
             <Tripdata
           heading="Pondicherry"
-          image="images\pexels-pixabay-33317.jpg"
+          image={img3}
           text="heyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyhey
             heyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyhey
             heyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyheyhey
